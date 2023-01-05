@@ -59,8 +59,9 @@ git clone --recurse-submodules https://github.com/jchengai/gpir.git
 
 ```
 cd gpir 
-conda activate carla_py37
-pip install -r ./requirements.txt
+conda create -name gpir --file requirement.txt
+#conda activate carla_py37
+#pip install -r ./requirements.txt
 bash ./setup.sh
 ```
 
